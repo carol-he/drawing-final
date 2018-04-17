@@ -1,0 +1,39 @@
+.cloud {
+  position: fixed;
+  background-image: url(../media/cloud.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transition: transform 5s;
+  width: 50%;
+  height: 50%;
+  opacity: .8;
+}
+#cloud1 {
+  top: 15%;
+  left: 30%;
+}
+#cloud2 { 
+  top: 17%;
+  left: 50%;
+}
+#cloud3 {
+  top: 3%;
+  left: 40%;
+}
+#cloud4 {
+  top: 23%;
+  left: 44%;
+}
+#cloud5 {
+  top: 12%;
+  left: 60%;
+}
+#cloud6 {
+  top: 36%;
+  left: 40%;
+}
+#cloud7 {
+  top: 31%;
+  left: 60%;
+}
