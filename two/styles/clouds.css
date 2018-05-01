@@ -11,26 +11,21 @@
 }
 #cloud1 {
   top: 11%;
-  left: 30%;
 }
 #cloud2 { 
   top: 18%;
-  left: 50%;
 }
 #cloud3 {
   top: 13%;
-  left: 40%;
   background-image: url(../media/cloud2.svg);
   width: 20%;
   height: 10%;
 }
 #cloud4 {
   top: 10%;
-  left: 90%;
 }
 #cloud5 {
   top: 22%;
-  left: 60%;
   background-image: url(../media/cloud2.svg);
   width: 20%;
   height: 10%;

@@ -17,7 +17,7 @@ function moveClouds(){
      leftpos[i] += speeds[i];
     clouds[i].style.left = leftpos[i] + '%'; // move div by 5 pixels each time
     if(leftpos[i] > 100)
-      if(i == 2 || i == 5 || i == 6){
+      if(i == 6 || i == 5 || i == 3){
         leftpos[i] = -15;
       } else {
         leftpos[i] = -30;
