@@ -1,8 +1,5 @@
 const all = document.querySelector('#clouds');
 const clouds = document.querySelectorAll('.cloud');
-for(var i = 0; i < clouds.length; i++){
-  clouds[i].addEventListener('click', stopClouds);
-}
 
 var leftpos = [];
 var speeds = [];
@@ -23,8 +20,3 @@ function moveClouds(){
   requestAnimationFrame(moveClouds);
 }
 requestAnimationFrame(moveClouds);
-
-function stopClouds(){
-  this.style.left = leftpos[i];
-  console.log('click');
-}

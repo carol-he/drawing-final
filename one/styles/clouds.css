@@ -24,6 +24,9 @@
 #cloud4 {
   top: 23%;
   left: 44%;
+  background-image: url(../media/cloud2.svg);
+  width: 20%;
+  height: 10%;
 }
 #cloud5 {
   top: 12%;
@@ -32,8 +35,14 @@
 #cloud6 {
   top: 36%;
   left: 40%;
+  background-image: url(../media/cloud2.svg);
+  width: 20%;
+  height: 10%;
 }
 #cloud7 {
   top: 41%;
   left: 60%;
+  background-image: url(../media/cloud2.svg);
+  width: 20%;
+  height: 10%;
 }
