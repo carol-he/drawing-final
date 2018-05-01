@@ -27,7 +27,7 @@
   background-image: url(../media/moon.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  z-index: 5;
+  z-index: 10;
   transition: all 3s;
   width: 5.7%;
   height: 10%;
@@ -40,7 +40,7 @@
   background-image: url(../media/crescent.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  z-index: 5;
+  z-index: 10;
   transition: all 3s;
   width: 2.7%;
   height: 10%;

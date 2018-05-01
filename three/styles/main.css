@@ -8,22 +8,22 @@ html, body {
 body {
   background: linear-gradient(0deg, #38aaaf, #39466e, #253054);
   background-size: 200% 200%;
-  -webkit-animation: AnimationName 30s ease infinite;
-  -moz-animation: AnimationName 30s ease infinite;
-  animation: AnimationName 30s ease infinite;
+  -webkit-animation: NightTime 30s ease infinite;
+  -moz-animation: NightTime 30s ease infinite;
+  animation: NightTime 30s ease infinite;
 }
 	
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes NightTime {
     0%{background-position:50% 10%}
     50%{background-position:50% 100%}
     100%{background-position:50% 10%}
 }
-@-moz-keyframes AnimationName {
+@-moz-keyframes NightTime {
     0%{background-position:50% 10%}
     50%{background-position:50% 100%}
     100%{background-position:50% 10%}
 }
-@keyframes AnimationName { 
+@keyframes NightTime { 
     0%{background-position:50% 10%}
     50%{background-position:50% 100%}
     100%{background-position:50% 10%}
@@ -134,8 +134,6 @@ body {
 #constellation3:hover {
   opacity: 1;
 }
-
-
 
 #mountains {
   position: fixed;

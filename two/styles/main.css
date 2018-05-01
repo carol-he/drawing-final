@@ -8,21 +8,21 @@ html, body {
 body {
   background: linear-gradient(0deg, #142e61, #a8e2e8, #062c52);
   background-size: 200% 200%;
-  -webkit-animation: GradientAnimation 30s ease infinite;
-  -moz-animation: GradientAnimation 30s ease infinite;
-  animation: GradientAnimation 30s ease infinite;
+  -webkit-animation: BlueSkies 30s ease infinite;
+  -moz-animation: BlueSkies 30s ease infinite;
+  animation: BlueSkies 30s ease infinite;
 }
-@-webkit-keyframes GradientAnimation {
+@-webkit-keyframes BlueSkies {
     0%{background-position:50% 10%}
     50%{background-position:50% 100%}
     100%{background-position:50% 10%}
 }
-@-moz-keyframes GradientAnimation {
+@-moz-keyframes BlueSkies {
     0%{background-position:50% 10%}
     50%{background-position:50% 100%}
     100%{background-position:50% 10%}
 }
-@keyframes GradientAnimation { 
+@keyframes BlueSkies { 
     0%{background-position:50% 10%}
     50%{background-position:50% 100%}
     100%{background-position:50% 10%}
