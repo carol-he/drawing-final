@@ -1,8 +1,7 @@
 const all = document.querySelector('#clouds');
 const clouds = document.querySelectorAll('.cloud');
-for(var i = 0; i < clouds.length; i++){
-  clouds[i].addEventListener('click', stopClouds);
-}
+const grasses = document.querySelector('#grasses');
+grasses.addEventListener('click', generateGrass);
 
 var leftpos = [];
 var speeds = [];
@@ -24,26 +23,27 @@ function moveClouds(){
 }
 requestAnimationFrame(moveClouds);
 
-function stopClouds(){
-  this.style.left = leftpos[i] - speeds[i];
-  console.log('click');
+function generateGrass(){
+  while (grasses.firstChild) {
+      grasses.removeChild(grasses.firstChild);
+    console.log("hello");
+  }
+  var grassLeft = -10;
+  var grassType = Math.floor(Math.random() * 3) + 1;
+  var grassHeight = Math.floor(Math.random() * 100) - 150;
+  for(var i = 0; i < 8; i++) {
+    var grass = document.createElement('div');
+    grass.style.minWidth = "300px";
+    grass.style.minHeight = "350px";
+    grass.style.position = "fixed";
+    grass.style.bottom = grassHeight + "px";
+    grass.style.left = grassLeft + "%";
+    grassLeft += Math.random() * 10 + 10;
+    grass.style.backgroundImage = "url(media/grass" + grassType + ".png)";
+    console.log("hello");
+    document.getElementById("grasses").appendChild(grass);
+    grassHeight = Math.floor(Math.random() * 100) - 150;
+  }
 }
 
-const leaves = [];
-
-grassLeft = -10;
-grassType = Math.floor(Math.random() * 3) + 1;
-grassHeight = Math.floor(Math.random() * 100) - 150;
-
-for(var i = 0; i < 8; i++) {
-  var grass = document.createElement('div');
-  grass.style.minWidth = "300px";
-  grass.style.minHeight = "350px";
-  grass.style.position = "fixed";
-  grass.style.bottom = grassHeight + "px";
-  grass.style.left = grassLeft + "%";
-  grassLeft += Math.random() * 10 + 10;
-  grass.style.backgroundImage = "url(media/grass" + grassType + ".png)";
-  document.getElementById("grasses").appendChild(grass);
-  grassHeight = Math.floor(Math.random() * 100) - 150;
-}
+generateGrass();
