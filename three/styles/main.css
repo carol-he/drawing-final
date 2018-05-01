@@ -98,7 +98,7 @@ body {
   opacity: 0;
 }
 #constellation:hover {
-  opacity: 1;
+  opacity: .8;
 }
 
 #constellation2 {
@@ -115,7 +115,7 @@ body {
   opacity: 0;
 }
 #constellation2:hover {
-  opacity: 1;
+  opacity: .8;
 }
 
 #constellation3 {
@@ -132,7 +132,7 @@ body {
   opacity: 0;
 }
 #constellation3:hover {
-  opacity: 1;
+  opacity: .8;
 }
 
 #mountains {

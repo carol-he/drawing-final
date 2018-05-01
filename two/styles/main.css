@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  background: linear-gradient(0deg, #142e61, #a8e2e8, #062c52);
+  background: linear-gradient(0deg, #a8e2e8, #2c5f8c, #062c52, #001438);
   background-size: 200% 200%;
   -webkit-animation: BlueSkies 30s ease infinite;
   -moz-animation: BlueSkies 30s ease infinite;
