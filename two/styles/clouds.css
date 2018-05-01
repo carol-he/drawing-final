@@ -1,0 +1,67 @@
+#moon1 {
+  position: fixed;
+  background-image: url(../media/moon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transition: transform 5s;
+  width: 10%;
+  height: 10%;
+  top: 15%;
+  left: 10%;
+}
+#moon2 {
+  position: fixed;
+  background-image: url(../media/crescent.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transition: transform 5s;
+  width: 10%;
+  height: 10%;
+  top: 15%;
+  left: 80%;
+}
+#iceberg {
+  position: fixed;
+  background-image: url(../media/iceberg.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transition: transform 5s;
+  width: 100%;
+  height: 100%;
+  top: 25%;
+  left: 0%;
+}
+.cloud {
+  position: fixed;
+  background-image: url(../media/cloud.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  transition: transform 5s;
+  width: 50%;
+  height: 50%;
+  opacity: .8;
+}
+#cloud1 {
+  top: 1%;
+  left: 30%;
+}
+#cloud2 { 
+  top: 8%;
+  left: 50%;
+}
+#cloud3 {
+  top: 3%;
+  left: 40%;
+}
+#cloud4 {
+  top: 0%;
+  left: 90%;
+}
+#cloud5 {
+  top: 12%;
+  left: 60%;
+}

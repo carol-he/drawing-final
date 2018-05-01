@@ -1,0 +1,61 @@
+#moon1 {
+  position: fixed;
+  background-image: url(../media/moon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transition: transform 5s;
+  width: 10%;
+  height: 10%;
+  top: 15%;
+  left: 10%;
+}
+#moon2 {
+  position: fixed;
+  background-image: url(../media/crescent.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+  transition: transform 5s;
+  width: 10%;
+  height: 10%;
+  top: 15%;
+  left: 80%;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background: linear-gradient(0deg, #f6afce, #98e0f5);
+  background-size: 200% 200%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+	
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 10%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 10%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 10%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 10%}
+}
+@keyframes AnimationName { 
+    0%{background-position:50% 10%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 10%}
+}
+
+#grasses{
+  position: fixed;
+  top: 70%;
+  width: 100%;
+  height: 100px;
+}
