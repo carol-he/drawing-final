@@ -15,7 +15,7 @@ for(var i = 0; i < clouds.length; i++){
 
 function moveClouds(){
   for (var i = 0; i < clouds.length; i++) {
-    leftpos[i] += speeds[i];
+     leftpos[i] += speeds[i];
     clouds[i].style.left = leftpos[i] + '%'; // move div by 5 pixels each time
     if(leftpos[i] > 100)
       leftpos[i] = -30;
@@ -25,7 +25,7 @@ function moveClouds(){
 requestAnimationFrame(moveClouds);
 
 function stopClouds(){
-  this.style.left = leftpos[i];
+  this.style.left = leftpos[i] - speeds[i];
   console.log('click');
 }
 

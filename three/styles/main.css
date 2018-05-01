@@ -84,6 +84,59 @@ body {
   height: 55%;
 }
 
+#constellation {
+  position: fixed;
+  background-image: url(../media/constellation.svg);
+  background-repeat: no-repeat;
+  background-size:contain;
+  z-index: 5;
+  top: 20.4%;
+  left: 2%;
+  width: 36.7%;
+  height: 17.5%;
+  transition: all 5s;
+  opacity: 0;
+}
+#constellation:hover {
+  opacity: 1;
+}
+
+#constellation2 {
+  position: fixed;
+  background-image: url(../media/constellation2.svg);
+  background-repeat: no-repeat;
+  background-size:contain;
+  z-index: 5;
+  top: 3.4%;
+  left: 56.8%;
+  width: 18.8%;
+  height: 18.4%;
+  transition: all 5s;
+  opacity: 0;
+}
+#constellation2:hover {
+  opacity: 1;
+}
+
+#constellation3 {
+  position: fixed;
+  background-image: url(../media/constellation3.svg);
+  background-repeat: no-repeat;
+  background-size:contain;
+  z-index: 5;
+  top: 34.7%;
+  left: 52.4%;
+  width: 26.8%;
+  height: 16.7%;
+  transition: all 5s;
+  opacity: 0;
+}
+#constellation3:hover {
+  opacity: 1;
+}
+
+
+
 #mountains {
   position: fixed;
   background-image: url(../media/mountains.svg);
