@@ -1,26 +1,15 @@
-#moon1 {
+#dunes {
   position: fixed;
-  background-image: url(../media/moon.svg);
+  background-image: url(../media/dunes.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  z-index: -1;
+  z-index: -5;
+  opacity: .9;
   transition: transform 5s;
-  width: 10%;
-  height: 10%;
-  top: 15%;
-  left: 10%;
-}
-#moon2 {
-  position: fixed;
-  background-image: url(../media/crescent.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: -1;
-  transition: transform 5s;
-  width: 10%;
-  height: 10%;
-  top: 15%;
-  left: 80%;
+  width: 100%;
+  height: 100%;
+  top: 70%;
+  left: 0%;
 }
 html, body {
 	width: 100%;

@@ -3,22 +3,22 @@
   background-image: url(../media/cloud.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  z-index: -1;
+  z-index: 2;
   transition: transform 5s;
-  width: 50%;
-  height: 50%;
+  width: 25%;
+  height: 15%;
   opacity: .8;
 }
 #cloud1 {
-  top: 15%;
+  top: 25%;
   left: 30%;
 }
 #cloud2 { 
-  top: 17%;
+  top: 37%;
   left: 50%;
 }
 #cloud3 {
-  top: 3%;
+  top: 13%;
   left: 40%;
 }
 #cloud4 {
@@ -34,6 +34,6 @@
   left: 40%;
 }
 #cloud7 {
-  top: 31%;
+  top: 41%;
   left: 60%;
 }

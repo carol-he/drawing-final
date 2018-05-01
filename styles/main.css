@@ -1,0 +1,89 @@
+#gem1 {
+  position: fixed;
+  background-image: url(../media/gem1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 0;
+  transition: transform 3s;
+  width: 16%;
+  height: 20%;
+  top: 50%;
+  left: 20%;
+}
+#gem1:hover {
+  transform: rotate(25deg);
+}
+#gem2 {
+  position: fixed;
+  background-image: url(../media/gem2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 0;
+  transition: transform 2s;
+  width: 16%;
+  height: 20%;
+  top: 40%;
+  left: 40%;
+  transform: rotate(15deg);
+}
+#gem2:hover {
+  transform: rotate(-10deg);
+}
+#gem3 {
+  position: fixed;
+  background-image: url(../media/gem3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 0;
+  transition: transform 3s;
+  width: 16%;
+  height: 20%;
+  top: 55%;
+  left: 60%;
+  transform: rotate(20deg);
+}
+#gem3:hover {
+  transform: rotate(-10deg);
+}
+#rock {
+  position: fixed;
+  background-image: url(../media/rock.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -3;
+  transition: transform 3s;
+  width: 80%;
+  height: 100%;
+  top: 50%;
+  left: 10%;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background: linear-gradient(0deg, #f6afce, #98e0f5);
+  background-size: 200% 200%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+	
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 10%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 10%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 10%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 10%}
+}
+@keyframes AnimationName { 
+    0%{background-position:50% 10%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 10%}
+}

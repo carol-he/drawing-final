@@ -1,30 +1,22 @@
-const all = document.querySelector('#clouds');
-const clouds = document.querySelectorAll('.cloud');
-for(var i = 0; i < clouds.length; i++){
-  clouds[i].addEventListener('click', stopClouds);
-}
+const all = document.querySelector('#lights');
+const lights = document.querySelectorAll('.light');
 
 var leftpos = [];
 var speeds = [];
 
-for(var i = 0; i < clouds.length; i++){
-  leftpos.push(Math.floor((Math.random() * 5) - 1) + i*15);
-  speeds.push(((Math.random() * 2) + 2) * .01)
+for(var i = 0; i < lights.length; i++){
+  leftpos.push(Math.random() + .3);
+  speeds.push(((Math.random() * .7) + 2) * .004)
 }
 
 
-function moveClouds(){
-  for (var i = 0; i < clouds.length; i++) {
-    leftpos[i] += speeds[i];
-    clouds[i].style.left = leftpos[i] + '%'; // move div by 5 pixels each time
-    if(leftpos[i] > 100)
-      leftpos[i] = -30;
+function fadeLights(){
+  for (var i = 0; i < lights.length; i++) {
+    leftpos[i] -= speeds[i];
+    lights[i].style.opacity = leftpos[i]; // move div by 5 pixels each time
+    if(leftpos[i] <= .3 || leftpos[i] >= 1)
+      speeds[i] *= -1;
   }
-  requestAnimationFrame(moveClouds);
+  requestAnimationFrame(fadeLights);
 }
-requestAnimationFrame(moveClouds);
-
-function stopClouds(){
-  this.style.left = leftpos[i];
-  console.log('click');
-}
+requestAnimationFrame(fadeLights);

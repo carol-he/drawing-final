@@ -9,7 +9,7 @@ var speeds = [];
 
 for(var i = 0; i < clouds.length; i++){
   leftpos.push(Math.floor((Math.random() * 5) - 1) + i*15);
-  speeds.push(((Math.random() * 2) + 2) * .01)
+  speeds.push(((Math.random() * 2) + 2) * .005)
 }
 
 

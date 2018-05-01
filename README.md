@@ -1,14 +1,12 @@
 # drawing-final
 My drawing on the web final project
 
-For my final project, I want to make three drawings that inspire people during hard times, each in its own way depending on the mood of the user. Each room will be an interpretation of a song that has an underlying message.
+For my final project, I want to make three drawings that either inspire or calm people down. They are all interpretations of instrumental music by one of my favorite artists, Petit Biscuit.
 
-The first page is the simplest, and allows the user to be in a space that is calming and beautiful. It’s supposed to show that despite the troubles they face, beautiful things continue to exist in life, such as sunsets and pretty songs.
+The navigation page is a page where it's snowing (I used [this library](http://www.schillmania.com/projects/snowstorm/)). On top of a snowy rock there's three gems, each of which lead to one of my pages. The color of the gem represents the dominant colors of the scene. Each of my pages also have a full moon and a crescent moon, which can each be used for navigation.
 
-The second room is for when the user can acknowledge their problems. It addresses doubt, fear, and insecurities. It’s supposed to remind people that though they may feel alone, everyone is subject to the human condition and being imperfect. Because of this, it is important to choose wisely with how you deal with pain.
+The first page allows the user to be in a space that is calming and beautiful. It's a song called 'sunset lover' so I thought a sunset would be appropriate. It has clouds moving and a gradient keyframes animation.
 
-The third room is about realizing that you have made progress in healing, and that it’s important to look towards the future. It’s about uplifting and being positive about the future although it is uncertain, and that it’s never too late to start taking control over your attitude on life and grow from old mistakes.
+The second page is a page dedicated to solitude and stillness. I used clouds again but slowed down the speeds, because I didn't want it to seem like there was a lot of movement going on in the scene.
 
-I intend to enhance my project by allowing the user to interact with objects in the space in order to play or pause music and animations in a way that uses something other than just the default music player. I also want to try creating a character in one of the drawings so that the user can move to interact with space.
-
-
+The third page is dedicated to feelings of inspiration and hope. I wanted to simulate northern lights on this page because they are so vibrant and beautiful. If I have time in the future, I want to learn how to animate SVGs because I feel like that would make it look even more realistic.
